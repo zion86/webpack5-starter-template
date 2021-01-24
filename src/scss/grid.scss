@@ -1,0 +1,38 @@
+// breakpoints, container width
+
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+
+$c-mob: 100%;
+$c-sm: 540px;
+$c-md: 720px;
+$c-lg: 960px;
+$c-xl: 1140px;
+
+$gap: 20px;
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $gap;
+  padding-right: $gap;
+  max-width: $c-mob;
+
+  @media (min-width: $bp-sm) {
+    max-width: $c-sm;
+  }
+
+  @media (min-width: $bp-md) {
+    max-width: $c-md;
+  }
+
+  @media (min-width: $bp-lg) {
+    max-width: $c-lg;
+  }
+
+  @media (min-width: $bp-xl) {
+    max-width: $c-xl;
+  }
+}
