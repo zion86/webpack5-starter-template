@@ -1,11 +1,12 @@
 @import "scss/variables.scss";
-@import "scss/grid.scss";
 @import "fonts/font.scss";
+@import "scss/container.scss";
+@import "scss/grid-layout.scss";
+
 @import "components/header/header.scss";
 @import "components/footer/footer.scss";
 
 
 body {
-  background-color: $color;
-	font-family: "Lato";
+  font-family: "Lato";
 }
