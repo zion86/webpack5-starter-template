@@ -23,6 +23,7 @@
     "copy-webpack-plugin": "^7.0.0",
     "cross-env": "^7.0.3",
     "css-loader": "^5.0.1",
+    "css-mquery-packer": "^1.2.4",
     "file-loader": "^6.2.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^4.5.1",
