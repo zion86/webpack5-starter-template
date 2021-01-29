@@ -22,7 +22,7 @@ body {
 }
 
 body::before {
-  --columns: 3;
+  $columns: 3;
 
   content: "";
   position: absolute;
@@ -33,23 +33,23 @@ body::before {
   background-image: repeating-linear-gradient(
     to right,
     transparent 0 $gap,
-    rgba(241, 130, 141, 0.2) $gap calc(100% / var(--columns))
+    rgba(241, 130, 141, 0.2) $gap calc(100% / #{$columns})
   );
   z-index: -1;
 
   @media (min-width: $bp-sm) {
-    --columns: 6;
+    $columns: 6;
   }
 
   @media (min-width: $bp-md) {
-    --columns: 9;
+    $columns: 9;
   }
 
   @media (min-width: $bp-lg) {
-    --columns: 12;
+    $columns: 12;
   }
 
   @media (min-width: $bp-xl) {
-    --columns: 12;
+    $columns: 12;
   }
 }
