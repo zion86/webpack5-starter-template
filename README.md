@@ -1,10 +1,9 @@
 # webpack5-starter-template
 
-Webpack config include
-+ SASS, CSS minify
+Webpack config include:
++ SASS, stylelint, css minify
 + PostCSS + autoprefixer
-+ JS minify
++ ESLint, JS minify
 + Babel
 + HTML templates and minify
 + Image compress
-+ Stylelint
