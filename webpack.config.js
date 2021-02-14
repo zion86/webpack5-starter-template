@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const ESLintPlugin = require('eslint-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const StylelintPlugin = require('stylelint-webpack-plugin');
 const copyWebpackPlugin = require('copy-webpack-plugin');
@@ -110,6 +111,9 @@ module.exports = {
     }),
     new StylelintPlugin({
       configFile: '.stylelintrc.json',
+      fix: true,
+    }),
+    new ESLintPlugin({
       fix: true,
     }),
     new copyWebpackPlugin({
