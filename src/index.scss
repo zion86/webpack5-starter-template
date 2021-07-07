@@ -1,14 +1,16 @@
-// SYSTEM STYLES
-@import "scss/01-variables.scss";
-@import "scss/02-reset-css.scss";
-// @import "scss/03-pixel-perfect.scss";
-// @import "scss/04-grid-layout.scss";
+// SCSS STYLES
+@import "./scss/_01-variables.scss";
+@import "./scss/_02-reset-css.scss";
+// @import "./scss/_03-pixel-perfect.scss";
+// @import "./scss/_04-grid-layout.scss";
+
 
 // FONST
-@import "fonts/font.scss";
+@import "./assets/fonts/_custom-fonts.scss";
+
 
 // CSS COMPONENTS
-@import "components/page/page.scss";
-@import "components/container/container.scss";
-@import "components/header/header.scss";
-@import "components/footer/footer.scss";
+@import "./components/page/_page";
+@import "./components/container/_container.scss";
+@import "./components/header/_header.scss";
+@import "./components/footer/_footer.scss";

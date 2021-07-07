@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
@@ -23,7 +23,7 @@ module.exports = {
   optimization: {
     minimizer: [
       new TerserPlugin(),
-      new OptimizeCssAssetsPlugin(),
+      new CssMinimizerPlugin(),
     ],
   },
   module: {
@@ -50,7 +50,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              outputPath: './images/',
+              outputPath: './assets/images/',
               name: fileName(),
               esModule: false,
               emitFile: true,
@@ -70,7 +70,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              outputPath: './fonts/',
+              outputPath: './assets/fonts/',
               name: fileName(),
               esModule: false,
               emitFile: true,
@@ -118,7 +118,7 @@ module.exports = {
     }),
     new copyWebpackPlugin({
       patterns: [
-        { from: './src/svg-sprites', to: './svg-sprites' },
+        { from: './src/assets/svg-sprites', to: './assets/svg-sprites' },
       ],
     }),
   ],

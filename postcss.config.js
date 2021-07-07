@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     require('postcss-combine-duplicated-selectors'),
-    require("css-mquery-packer"),
+    require('postcss-merge-queries'),
     require('autoprefixer'),
   ],
 };
