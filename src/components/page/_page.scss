@@ -1,9 +1,9 @@
 .page {
-  font-family: $f-lato;
+  font-family: $f-base-main;
   font-size: 16px;
   line-height: 1.5;
-  color: $c-black-v1;
-  background-color: $c-white-v1;
+  color: $c-base-text;
+  background-color: $c-base-bg;
 }
 
 .page--lock {

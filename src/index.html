@@ -9,19 +9,21 @@
 
 <body class="page">
 
-  <div class="container">
+  ${ require('./components/header/header.html') }
+  <!-- /.header -->
 
+  <main>
+  
     <svg width="20" height="20">
-      <use href="./assets/svg-sprites/svg-icons-sprite.svg#facebook"></use>
+      <use href="./assets/svg-sprites/svg-sprites.svg#facebook"></use>
     </svg>
 
-    ${ require('./components/header/header.html') }
-    <!-- /.header -->
+    <img width="30" height="30" src="assets/svg/search.svg" alt="svg icon">
 
-    ${ require('./components/footer/footer.html') }
-    <!-- /.footer -->
+  </main>
 
-  </div>
+  ${ require('./components/footer/footer.html') }
+  <!-- /.footer -->
 
 </body>
 

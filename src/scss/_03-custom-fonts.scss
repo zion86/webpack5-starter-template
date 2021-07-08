@@ -1,0 +1,10 @@
+@font-face {
+  font-family: $f-base-main;
+  src: local("Lato Regular"),
+    local("Lato-Regular"),
+    url("../assets/fonts/Lato-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Lato-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}

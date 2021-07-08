@@ -50,7 +50,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              outputPath: './assets/images/',
+              outputPath: './assets/img/',
               name: fileName(),
               esModule: false,
               emitFile: true,
