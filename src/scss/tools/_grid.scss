@@ -11,11 +11,7 @@ body::before {
   content: "";
   position: absolute;
   inset: 0 $gap 0 0;
-  background-image: repeating-linear-gradient(
-    to right,
-    transparent 0 $gap,
-    rgb(241 130 141 / 20%) $gap calc(100% / var(--columns))
-  );
+  background-image: repeating-linear-gradient(to right, transparent 0 $gap, rgb(241, 130, 141) $gap calc(100% / var(--columns)));
   z-index: 1;
 }
 

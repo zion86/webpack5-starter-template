@@ -19,6 +19,7 @@
     "rule-empty-line-before": "always",
     "block-closing-brace-newline-before": "always",
     "selector-class-pattern": "^[a-zA-Z0-9_-]+$",
-    "scss/dollar-variable-pattern": "^[a-z][a-z\\d\\-]*$"
+    "scss/dollar-variable-pattern": "^[a-z][a-z\\d\\-]*$",
+    "color-function-notation": "rgba"
   }
 }
