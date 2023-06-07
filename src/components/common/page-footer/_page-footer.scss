@@ -1,0 +1,10 @@
+.page-footer {
+  padding-top: 22px;
+  padding-bottom: 46px;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

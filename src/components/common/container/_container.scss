@@ -1,0 +1,31 @@
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $gap;
+  padding-right: $gap;
+  max-width: 100%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $gap;
+  padding-right: $gap;
+  max-width: $w-container-mob;
+
+  @media (min-width: $bp-sm) {
+    max-width: $w-container-sm;
+  }
+
+  @media (min-width: $bp-md) {
+    max-width: $w-container-md;
+  }
+
+  @media (min-width: $bp-lg) {
+    max-width: $w-container-lg;
+  }
+
+  @media (min-width: $bp-xl) {
+    max-width: $w-container-xl;
+  }
+}

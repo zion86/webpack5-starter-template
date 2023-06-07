@@ -1,0 +1,15 @@
+.page {
+  font-family: $ff-primary;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $c-page-text-primary;
+  background-color: $c-page-bg-primary;
+}
+
+.page--lock {
+  overflow: hidden;
+}
+
+h1 {
+  color: $c-title;
+}

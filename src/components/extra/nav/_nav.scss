@@ -1,0 +1,14 @@
+.nav {
+
+  &__list {
+    display: inline-flex;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: $gap;
+  }
+
+  &__link {
+    color: $c-link;
+  }
+}

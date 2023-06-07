@@ -1,0 +1,33 @@
+/* BREAKPOINTS */
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+
+/* CONTAINER */
+$w-container-mob: 100%;
+$w-container-sm: 540px;
+$w-container-md: 720px;
+$w-container-lg: 960px;
+$w-container-xl: 1140px;
+
+/* OUTER SPACING */
+$gap: 20px;
+$gap-negative: -20px;
+
+/* INNER SPACING */
+$sp-basic: 10px;
+$sp-big: 20px;
+$sp-nav-link: $sp-basic $sp-big;
+
+/* BORDER RADIUS */
+$br-basic: 10px;
+$br-big: 20px;
+$br-small: 5px;
+$br-border: var(--br-small);
+$br-btn: var(--br-btn);
+$br-link: var(--br-big);
+
+/* PIXEL PERFECT MOCKUP WIDTH */
+
+/* $pixel-perfect-width: 1440px; */

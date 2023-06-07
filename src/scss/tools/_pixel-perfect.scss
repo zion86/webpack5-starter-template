@@ -1,0 +1,11 @@
+/* PIXEL PERFECT */
+
+html {
+  min-width: $pixel-perfect-width;
+  background: url("../../assets/images/mockup.jpg") 50% 0 no-repeat;
+}
+
+body {
+  opacity: 0.45;
+  filter: invert(100%);
+}

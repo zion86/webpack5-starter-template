@@ -1,0 +1,29 @@
+/* STICKY FOOTER */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: min-content auto min-content;
+}
+
+/* FOR FLEXBOX APPROACH */
+
+/*
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0;
+  }
+*/

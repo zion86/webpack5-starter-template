@@ -1,0 +1,57 @@
+// css variables
+
+:root {
+  --white-primary: #FFF;
+  --black-primary: #000;
+  --red-primary: red;
+  --red-secondary: tomato;
+  --grey-primary: #434343;
+  --blue-primary: #0020E4;
+  --blue-secondary: #1B3C9C;
+  --green-primary: #3DC051;
+  --green-secondary: #05C501;
+}
+
+$c-page-text-primary: var(--black-primary);
+$c-page-bg-primary: var(--grey-primary);
+$c-page-bg-secondary: var(--red-primary);
+$c-page-header-bg: var(--blue-secondary);
+$c-page-content-bg: var();
+$c-page-footer-bg: var();
+$c-title: var(--red-primary);
+$c-link: var(--blue-primary);
+$c-link-bg: var();
+$c-link--hover: var();
+$c-border: var(--green-secondary);
+$c-btn-text: var(--white-primary);
+$c-btn-bg: var(--green-primary);
+$c-btn--hover: var();
+$c-input-text: var();
+$c-input-border: var();
+$c-input-bg: var();
+$c-input-placeholder: var();
+$c-input--focus: var();
+
+/*
+  $c-white-primary: #FDFDFD;
+  $c-black-primary: #000;
+  $c-red-primary: red;
+  $c-red-secondary: tomato;
+  $c-grey-primary: #434343;
+*/
+
+/* 
+  $c-primary: ;
+  $c-secondary: ;
+  $c-tertiary: ;
+  $c-success: ;
+  $c-info: ;
+  $c-warning: ;
+  $c-danger: ;
+  $c-light: ;
+  $c-lighter: ;
+  $c-lightest: ;
+  $c-dark: ;
+  $c-darker: ;
+  $c-darkest: ;
+*/
