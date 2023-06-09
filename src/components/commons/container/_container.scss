@@ -4,6 +4,26 @@
   padding-left: $gap;
   padding-right: $gap;
   max-width: 100%;
+
+  @media (min-width: $bp-sm) {
+    padding-left: $gap;
+    padding-right: $gap;
+  }
+
+  @media (min-width: $bp-md) {
+    padding-left: $gap;
+    padding-right: $gap;
+  }
+
+  @media (min-width: $bp-lg) {
+    padding-left: $gap;
+    padding-right: $gap;
+  }
+
+  @media (min-width: $bp-xl) {
+    padding-left: $gap;
+    padding-right: $gap;
+  }
 }
 
 .container {
