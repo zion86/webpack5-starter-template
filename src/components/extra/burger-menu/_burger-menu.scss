@@ -1,0 +1,30 @@
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+
+  &__item {
+    display: inline-block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-color: #333;
+      position: absolute;
+    }
+
+    &::before {
+      top: -7px;
+    }
+
+    &::after {
+      top: 7px;
+    }
+  }
+}
