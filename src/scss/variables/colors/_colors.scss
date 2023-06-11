@@ -1,0 +1,42 @@
+@import "btn";
+@import "link";
+@import "title";
+@import "input";
+@import "border";
+@import "page";
+
+:root {
+  --white-primary: #FFF;
+  --black-primary: #000;
+  --red-primary: red;
+  --red-secondary: tomato;
+  --grey-primary: #434343;
+  --blue-primary: #365ABA;
+  --blue-secondary: #1B3C9C;
+  --green-primary: #3DC051;
+  --green-secondary: #05C501;
+}
+
+/*
+  $c-white-primary: #FDFDFD;
+  $c-black-primary: #000;
+  $c-red-primary: red;
+  $c-red-secondary: tomato;
+  $c-grey-primary: #434343;
+*/
+
+/* 
+  $c-primary: ;
+  $c-secondary: ;
+  $c-tertiary: ;
+  $c-success: ;
+  $c-info: ;
+  $c-warning: ;
+  $c-danger: ;
+  $c-light: ;
+  $c-lighter: ;
+  $c-lightest: ;
+  $c-dark: ;
+  $c-darker: ;
+  $c-darkest: ;
+*/

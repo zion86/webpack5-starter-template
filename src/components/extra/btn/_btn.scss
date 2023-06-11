@@ -1,3 +1,30 @@
 .btn {
-  color: limegreen;
+  --fsz: 24px;
+  --lht: 28px;
+
+  padding: $sp-basic $sp-big;
+  font-family: $ff-primary;
+  font-weight: $fwg-regular;
+  font-size: var(--fsz);
+  line-height: var(--lht);
+  text-transform: capitalize;
+  color: $c-btn-text;
+  background-color: $c-btn-bg;
+  border-radius: $br-big;
+
+  &--dislike {
+    opacity: 0.5;
+  }
+
+  @media (min-width: $bp-md) {
+    --fsz: 32px;
+    --lht: 38px;
+  }
+
+  // @media (min-width: $bp-lg) {}
+
+  @media (min-width: $bp-xl) {
+    --fsz: 33px;
+    --lht: 39px;
+  }
 }
